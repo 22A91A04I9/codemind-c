@@ -1,8 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int n,s;
-    scanf("%d",&n);
-    s=(n*(n+1))/2;
+    int a,i,s=0;
+    scanf("%d",&a);
+    for(i=1;i<=a;i++)
+    {
+        s=s+i;
+    }
     printf("%d",s);
 }
